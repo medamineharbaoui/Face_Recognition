@@ -22,7 +22,7 @@ python main.py
 ```
 The application will start and you will be able to start using the Facial recognition system by adding images of people to the database.
 
-![](Screenshot 1.png)
+![First_Screenshot](Screenshot 1.png)
 
 ## Internal functioning
 
@@ -30,7 +30,7 @@ When the application starts, it uses MTCNN to detect faces. The detected faces a
 
 When an image is submitted for face recognition, the same face detection and encoding process is performed on the submitted image. The resulting vector is then compared to each vector in the face recognition database to find the closest face.
 
-![](Screenshot 2.png)
+![Second_Screenshot](Screenshot 2.png)
 
 ## Conclusion
 
